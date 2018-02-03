@@ -1639,7 +1639,7 @@
 
 /* Type */
 
-	body, input, select, textarea {
+	body, input, select {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
@@ -1954,7 +1954,7 @@
 		background: rgba(212, 212, 255, 0.035);
 		border: none;
 		border-radius: 0;
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2803,7 +2803,7 @@
 				border: 0;
 				height: 100%;
 				left: 0;
-				position: absolute;
+				position:inherit;
 				top: 0;
 				width: 100%;
 				z-index: 4;

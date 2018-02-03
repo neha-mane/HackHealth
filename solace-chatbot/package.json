@@ -1,0 +1,57 @@
+{
+  "_from": "concierge-chatbot",
+  "_id": "concierge-chatbot@1.5.0",
+  "_inBundle": false,
+  "_integrity": "sha1-M9x3Q82rLFGfZ83l7AFbW0qGV5s=",
+  "_location": "/concierge-chatbot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "concierge-chatbot",
+    "name": "concierge-chatbot",
+    "escapedName": "concierge-chatbot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/concierge-chatbot/-/concierge-chatbot-1.5.0.tgz",
+  "_shasum": "33dc7743cdab2c519f67cde5ec015b5b4a86579b",
+  "_spec": "concierge-chatbot",
+  "_where": "C:\\Users\\sweta",
+  "author": {
+    "name": "Glynn Bird",
+    "email": "glynn.bird@gmail.com"
+  },
+  "bin": {
+    "concierge-chatbot": "bin/concierge-chatbot.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ibm-cds-labs/concierge/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "colours": "^0.6.0-2",
+    "prompt": "^1.0.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "deprecated": false,
+  "description": "A Watson-powered conversational bot for small businesses",
+  "homepage": "https://github.com/ibm-cds-labs/concierge#readme",
+  "license": "Apache-2.0",
+  "main": "concierge.js",
+  "name": "concierge-chatbot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibm-cds-labs/concierge.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.0"
+}
