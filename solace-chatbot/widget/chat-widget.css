@@ -17,7 +17,7 @@
 	/* padding: 5px 0 0 5px; */
 	color: #03274b;
 	font-weight: bold;
-	width: 200px;
+	/* width: 200px; */
 	text-align: center;
 }
 
@@ -125,12 +125,13 @@
 ._concierge_chat_msg {
 	padding: 3px;
   margin: 0;
-  width: 94.6%;
+  width: 95.5%;
   border: none;
-  height: 60px;
-  background: white;
+  height: 30px;
+  background: #f2f3f4;
 	float:left;
 }
+
 
 ._concierge_chat_msg:focus {
 	border: none;
@@ -142,15 +143,15 @@
   background-color: #5bc0de;
   border-color: #46b8da;
   padding: 3px 6px;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1.4;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 1px solid transparent;
   cursor: pointer;
 
 	/* float: right; */
 	position:relative;
 	bottom: 2px;
-	height: 60px;
+	height: 30px;
 }
