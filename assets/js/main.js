@@ -346,6 +346,27 @@
 							$menu._hide();
 
 				});
+				$body
+				.on('click', 'a[href="#reinforce"]', function(event) {
+
+					event.stopPropagation();
+					event.preventDefault();
+
+					// Toggle.
+						var feeling=document.getElementById('feeling').value;
+						var solution=document.getElementById('solution').value;
+
+						var urlString="http://127.0.0.1:5000/analyze?feeling="+feeling+"&solution="+solution;
+
+						$.ajax({
+							  type: "POST",
+							  url: urlString,
+							}).done(function( o ) {
+							   a
+							});
+
+						alert('Thanks!! Your suggestion will help others!!')
+				});
 
 	});
 
