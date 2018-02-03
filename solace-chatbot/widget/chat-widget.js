@@ -54,20 +54,20 @@ function Concierge(opts) {
     // title bar
     var title_bar = $("<div>", { class: "_concierge_title" });
     var title_text = $("<p>", { class: "_concierge_title_text" }).text("Solace")
-    var min = $("<img>", { src: _concierge_chat_host + "/min.png" })
-    title_bar.append(min);
+    // var min = $("<img>", { src: _concierge_chat_host + "/min.png" })
+    // title_bar.append(min);
     title_bar.append(title_text);
     this.container.append(title_bar);
 
-    min.click(function() {
-      this.container.toggleClass("_concierge_min")
-    }.bind(this))
+    // min.click(function() {
+    //   this.container.toggleClass("_concierge_min")
+    // }.bind(this))
 
 
     // create the elements for the ID screen
     var id_div = $("<div>", { class: "_concierge_chat_id_screen", id: "_concierge_chat_id_screen"})
     var welcome = $("<p>").text("Welcome to Solace, We are here for you, buddy.")
-    var name_button = $("<button>", { name: "_concierge_chat_name_submit", id: "_concierge_chat_name_submit", type: "button" }).text("Get Started!")
+    var name_button = $("<button>", { name: "_concierge_chat_name_submit", id: "_concierge_chat_name_submit", type: "button" }).text("Say, Hello !")
 
     // add these elements
     id_div.append(welcome);
@@ -191,5 +191,5 @@ function Concierge(opts) {
     }
 
   }.bind(this));
-  
+
 }
